@@ -7,15 +7,17 @@ const Header = () => {
         window.location.href = 'about';
     };
 
-
+    const handleHomeClick = () => {
+        window.location.href = '/';
+    }
 
     return (
         <div className='header'>
             <ul className='logo-container'>
-                <li className='comfort-care-logo'> Comfort Care 24/7 LLC</li>
+                <li className='comfort-care-logo' onClick={handleHomeClick}> Comfort Care 24/7 LLC</li>
             </ul>
             <ul className='navigation-buttons-container'>
-                <li className='home-button'>Home</li>
+                <li className='home-button' onClick={handleHomeClick}>Home</li>
                 <li className='about-button' onClick={handleAboutUsClick}>About Us</li>
                 <li className='outreach-button'>Outreach</li>
             </ul>

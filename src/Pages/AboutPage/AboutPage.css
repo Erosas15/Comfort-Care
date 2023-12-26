@@ -1,0 +1,41 @@
+.about-page-content{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;  
+}
+
+.founders-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.mission-statement{
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #c3a97e;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.mission-text p{
+    color: #2c2b2b;
+    font-size: 23px;
+    text-align: center;
+}
+  
+.mission-text h2{
+    color: #2c2b2b;
+    text-align: center;
+    font-size: 40px;
+}
+  
+.mission-image img{
+    border-radius: 25px;
+    border: 3px groove #2c2b2b;
+    width: 100%;
+    height: auto;
+}
+
+  
