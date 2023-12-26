@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c3a97e;
+}
+
+.logo-container, 
+.navigation-buttons-container,
+.auth-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.comfort-care-logo,
+.home-button, .about-button, .outreach-button,
+.login-button, .signup-button{
+    margin: 0 10px;
+    color: #2c2b2b;
+    background-color: #F5F5DD;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
